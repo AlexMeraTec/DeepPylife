@@ -68,7 +68,7 @@ class UpdateGrid(torch.nn.Module):
 debug_img = 5
 
 updateGrid = UpdateGrid()
-im = Image.open("me.png")
+im = Image.open("corona.png")
 target = torch.tensor(np.array(im) / 255.)
 
 # Declaramos la función de error.
